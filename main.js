@@ -70,7 +70,35 @@ const legoProducts = [
                 category: "Architecture",
                 image: "https://www.lego.com/cdn/cs/set/assets/blt0e2b04c977a2dc2a/10307.png?format=webply&fit=bounds&quality=60&width=800&height=800&dpr=2",
                 enlace: "https://www.lego.com/es-es/product/10307"
+            },
+
+            {
+                id: 10,
+                title: "LEGO Super Mario Pack de expansión: Castillo de Bowser",
+                price: "99.99 €",
+                category: "Super Mario",
+                image: "https://www.lego.com/cdn/cs/set/assets/blt970dabe74e5b5765/71411.png?format=webply&fit=bounds&quality=60&width=800&height=800&dpr=2",
+                enlace: "https://www.lego.com/es-es/product/71411"  
+            },
+
+            {
+                id: 11,
+                title: "LEGO Friends Central Perk",
+                price: "49.99 €",
+                category: "Friends",
+                image: "https://www.lego.com/cdn/cs/set/assets/blt497da03153fb9a10/21319.jpg?format=webply&fit=bounds&quality=60&width=800&height=800&dpr=2",
+                enlace: "https://www.lego.com/es-es/product/central-perk-21319"
+            },
+
+            {
+                id: 12,
+                title: "LEGO Duplo Tren de la ciudad",
+                price: "79.99 €",
+                category: "Duplo",
+                image: "https://www.lego.com/cdn/cs/set/assets/blt892b06b079302476/10874.jpg?format=webply&fit=bounds&quality=60&width=800&height=800&dpr=2",
+                enlace: "https://www.lego.com/es-es/product/10874"
             }
+
         ];
 
         function renderProducts(products) {

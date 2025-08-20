@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,16 +17,19 @@
             <input type="text" class="lego-search" placeholder="Buscar sets...">
             
             <h3>Categorías</h3>
-            <span class="filter-tag">Star Wars</span>
-            <span class="filter-tag">Harry Potter</span>
-            <span class="filter-tag">Technic</span>
-            <span class="filter-tag">City</span>
-            <span class="filter-tag">Creator</span>
-            <span class="filter-tag">Ninjago</span>
+            <button class="filter-tag">Star Wars</button>
+            <button class="filter-tag">Harry Potter</button>
+            <button class="filter-tag">Technic</button>
+            <button class="filter-tag">City</button>
+            <button class="filter-tag">Creator</button>
+            <button class="filter-tag">Ninjago</button>
+            <button class="filter-tag">Friends</button>
+            <button class="filter-tag">Super Mario</button>
+            <button class="filter-tag">Duplo</button>
             
             <h3>Rango de Precio</h3>
             <div class="price-range">
-                <input type="range" min="0" max="200" value="50">
+                <input type="range" min="0" max="500" value="50">
                 <p>Hasta 500 €</p>
             </div>
         </section>
@@ -35,7 +38,6 @@
         </section>
     </div>
 
-    </body>
     <footer class="lego-footer">
         <div class="footer-container">
             
@@ -80,6 +82,7 @@
                 <div class="newsletter">
                     <h5>NEWSLETTER</h5>
                     <form style="display: flex;">
+                        <label for="email" class="sr-only">Correo electrónico</label>
                         <input type="email" placeholder="Tu email">
                         <button type="submit">OK</button>
                     </form>
@@ -90,6 +93,5 @@
             <p>© 2025 The LEGO Group. Todos los derechos reservados.</p>
         </div>
     </footer>
-
-
+    </body>
 </html>
